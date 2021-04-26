@@ -1,0 +1,172 @@
+/*--------------------
+    Footer  area
+--------------------*/
+.footer-area{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    background-color: #0e1318;
+    padding: 100px 0 0px 0;
+    .footer-wrap{
+        padding-bottom: 100px;
+        .footer-widget{
+            &.about{
+                .footer-logo{
+                    margin-bottom: 25px;
+                }
+                .call-us{
+                    color: $heading-color;
+                    font-size: 24px;
+                    font-family: Spicy Rice;
+                }
+                .footer-social{
+                    margin: 23px 0 0 0;
+                    padding: 0;
+                    li{
+                        display: inline-block;
+                        margin: 0 5px;
+                        &:first-child{
+                            margin-left: 0;
+                        }
+                       a{
+                           display: block;
+                           width: 35px;
+                           height: 35px;
+                           border-radius: 50%;
+                           border: 1px solid rgba($white,.2);
+                           text-align: center;
+                           line-height: 35px;
+                           font-size: 14px;
+                           @include transition($transition);
+                           
+                       }
+                       &:hover{
+                               .facebook{
+                                background-color: $facebook;
+                                color: $white;
+                               }
+                               .twitter{
+                                background-color: $twitter;
+                                color: $white;
+                               }
+                               .linkedin{
+                                background-color: $linkedin;
+                                color: $white;
+                               }
+                               .google{
+                                    background-color: $google-plus;
+                                    color: $white;
+                               }
+                               
+                           }
+                    }
+                }
+            }
+            .widget-title{
+                .title{
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    color: rgba($heading-color,.8);
+                    margin-bottom: 22px;
+                }
+            }
+            .widget-body{
+                    padding-top: 15px;
+                p{
+                    color: rgba($white,.8);
+                    font-size: 16px;
+                    line-height: 26px;
+                    padding-right: 25px;
+                }
+                ul{
+                    li{
+                        display: block;
+                        margin: 10px 0;
+                        a{
+                            img{
+                                padding-right: 5px;
+                            }
+                            color: rgba($white,.8);
+                            @include transition($transition);
+                            font-size: 14px;
+                            &:hover{
+                            color: $heading-color;
+                            }
+                        }
+                    }
+                }
+                .subcribe{
+                    .form-group{
+                        .form-control{
+                        width: 100%;
+                        height: 50px;
+                    }
+                    input[type=submit] {
+                    margin-top: 10px;
+                    background-color: #e87823;
+                    color: white;
+                    border: none;
+                    text-transform: uppercase;
+                    text-align: left;
+                    font-size: 16px;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+                    }
+                    
+                }
+                .instagram-img{
+                    padding: 0 10px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    li{
+                        overflow: hidden;
+                        padding: 0px 5px 0;
+                        width: auto;
+                        margin: 5px 0px;
+                        a{
+                            img {
+                            padding-right: 0px;
+                            height: 80px;
+                            width: 100%;
+                            &:hover{
+                                opacity: .5;
+                            }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    .copyright-area {
+        background-color: #0e1318;
+        padding: 25px 0;
+        color: rgba($white,.9);
+        border-top: 1px solid rgba($white,.1);
+        font-size: 14px;
+        text-transform: capitalize;
+        .copyright-links{
+            display: inline-flex;
+            margin: 0;
+            padding: 0;
+            float: right;
+            li{
+                display: block;
+                margin: 0px 0px 0px 15px;
+                a{
+                    color: rgba($white,.9);
+                    @include transition($transition);
+                    &:hover{
+                    color: $heading-color;
+                    }
+                }
+            }
+        }
+    }
+    .zoo-color{
+        color: #e87823;
+    }
+}

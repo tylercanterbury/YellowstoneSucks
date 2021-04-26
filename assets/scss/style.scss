@@ -1,0 +1,106 @@
+/*------------------------
+	Css Indexing
+--------------------------
+** @typography
+--------------------------
+** Global css
+--------------------------
+** Preloader
+--------------------------
+** Normalize
+--------------------------
+** Navbar Area
+--------------------------
+** Header Area
+--------------------------
+** Home Area
+--------------------------
+** Breadcrumb Area
+--------------------------
+** About Area
+--------------------------
+** About Video Area
+--------------------------
+** Destination Area
+--------------------------
+** Destination 2 Area
+--------------------------
+** Visit Area
+--------------------------
+** Animals Area
+--------------------------
+** Animals Slide Area
+--------------------------
+** Promo Area
+--------------------------
+** Testimonials Area
+--------------------------
+** Testimonials 2 Area
+--------------------------
+** Blog Area
+--------------------------
+** Footer Area
+--------------------------
+** Join Area
+--------------------------
+** Lets Area
+--------------------------
+** About Us Page
+--------------------------
+** Planning Page
+--------------------------
+** Daily Show Page
+--------------------------
+** Show Details Page
+--------------------------
+** Gallery Page
+--------------------------
+** Blog Page
+--------------------------
+** Blog Details Page
+--------------------------
+** Destination Details Page
+--------------------------
+** Ticket Pricing Page
+--------------------------
+** Contact Page
+--------------------------
+-----------------*/
+
+//=Main scss
+@import "main/_variables";
+@import "main/_mixins";
+@import "main/_global";
+@import "main/_normalize";
+
+//=Section scss
+@import "sections/_navbar";
+@import "sections/_header";
+@import "sections/_home";
+@import "sections/_breadcrumb";
+@import "sections/_about";
+@import "sections/_about_video";
+@import "sections/_destination";
+@import "sections/_destination2";
+@import "sections/_visit";
+@import "sections/_animals";
+@import "sections/_animals-slide";
+@import "sections/_promo";
+@import "sections/_testimonials";
+@import "sections/_testimonial2";
+@import "sections/_blog";
+@import "sections/_footer";
+@import "sections/_join";
+@import "sections/_lets";
+
+//=Pages scss
+@import "pages/_about_us";
+@import "pages/_planning";
+@import "pages/_daily_show";
+@import "pages/_show_details";
+@import "pages/_gallery";
+@import "pages/_blog";
+@import "pages/_blog_details";
+@import "pages/_destination_details";
+@import "pages/_ticket_pricing";
+@import "pages/_contact_us";

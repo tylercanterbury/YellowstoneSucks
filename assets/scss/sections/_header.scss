@@ -1,0 +1,62 @@
+/*------------------------------
+    Header Area
+------------------------------*/
+.header-area {
+    position: relative;
+    z-index: 0;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    overflow: hidden;
+    @include transition(.3s ease);
+    &.header-bg {
+        background-image: url(../img/bg/slide.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+   
+    .slider-all-text {
+        .title {
+            font-size: 55px;
+            font-weight: 700;
+            line-height: 60px;
+            color: $white; 
+        }
+        .subtitle {
+            color: $base-color;
+            font-size: 48px;
+            line-height: 40px;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 20px;
+        }
+        p{
+            color: $white;
+            font-size: 18px;
+            line-height: 28px;
+            font-weight: 400;
+        }
+        .btn-wrapper{
+            margin-top: 40px;
+            .boxed-btn{
+                display: inline-block;
+                text-align: center;
+                width: 170px;
+                height: 50px;
+                line-height: 50px;
+                font-size: 16px;
+                border-radius: 10px;
+                color: #fff;
+                background-color: $heading-color;
+                text-transform: capitalize;
+                font-weight: 700;
+                overflow: hidden;
+                @include transition(.3s ease);
+                &:hover {
+                    color: $base-color;
+                }
+            }
+
+        }
+    }
+    
+}

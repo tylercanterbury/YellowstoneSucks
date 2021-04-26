@@ -1,0 +1,8 @@
+/*------------------------------
+    Lets Area
+------------------------------*/
+.lets-area {
+  position: relative;
+  z-index: 0;
+  padding: 100px 0px 100px;
+  overflow: hidden; }

@@ -1,0 +1,82 @@
+/*------------------------------
+    Show Details Page
+------------------------------*/
+.show-details-area{
+    padding: 100px 0px 100px;
+    .show-details{
+        margin-bottom: 50px;
+        position: relative;
+        overflow: hidden;
+            img {
+                width: 100%;
+                height: auto; 
+                @include transition(.3s ease);  
+                &:hover{
+                    -webkit-transform: scale(1.2);
+                    -ms-transform: scale(1.2);
+                        transform: scale(1.2); 
+                }            
+            } 
+    }
+    .show-details-content{
+        margin-bottom: 50px;
+        h2{
+            font-size: 40px;
+            font-weight: 500;
+        }
+        span{
+            font-size: 24px;
+            color: #6f6f6f;
+            font-weight: 500;
+        }
+        p{
+            color: #242424;
+            line-height: 28px;
+            margin-top: 18px;
+        }
+    }
+    .membership-content{
+        h3{
+            font-size: 24px;
+            color: #242424;
+            font-weight: 500; 
+
+        }
+        h5{
+            font-size: 18px;
+            color: #242424;
+            font-weight: 500; 
+
+        }
+        p{
+            line-height: 28px;
+            margin-top: 18px;
+        }
+        .membership-list{
+            li{
+                padding: 10px 70px 0px 0px;
+                i{
+                    color: #e87823;
+                    font-size: 9px;
+                    padding-right: 7px;
+                }
+            }
+        }
+    }
+    .border{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .membership-image{
+        position: relative;
+        overflow: hidden;
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%; 
+            @include transition(.3s ease);  
+                       
+            } 
+
+    }
+}

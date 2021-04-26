@@ -1,0 +1,45 @@
+/*------------------------------
+    Daily Show Page
+------------------------------*/
+.daily-show-area{
+    padding: 100px 0px 100px;
+    .daily-show{
+        margin-bottom: 50px;
+        position: relative;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: auto; 
+                @include transition(.3s ease);  
+                &:hover{
+                    -webkit-transform: scale(1.2);
+                    -ms-transform: scale(1.2);
+                        transform: scale(1.2); 
+                 @include transition($transition-long);
+                }            
+            } 
+    }
+    
+    .daily-show-content{
+        padding-top: 50px;
+        margin-bottom: 50px;
+        h2{
+            font-size: 40px;
+            font-weight: 500;
+        }
+        span{
+            font-size: 24px;
+            color: #6f6f6f;
+            font-weight: 500;
+        }
+        p{
+            color: #242424;
+            line-height: 28px;
+            margin-top: 18px;
+        }
+        a{
+            margin-top: 25px;
+        }
+    }
+
+}

@@ -1,0 +1,110 @@
+/*----------------------
+    Contact Us Page
+----------------------*/
+
+.contact-page-content-area {
+    padding: 130px 0 100px 0;
+    .single-contact-info-box {
+        position: relative;
+        border: 2px solid rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        @include transition(all 0.3s ease-in);
+        &:hover{
+             border-color: $base-color;
+             .icon{
+                 box-shadow: 0 5px 25px 3px rgba($base-color,.7);
+             }
+        }
+        .icon {
+            position: absolute;
+            left: 15%;
+            top: 50px;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            font-size: 18px;
+            line-height: 70px;
+            text-align: center;
+            background-color: $base-color;
+            color: #fff;
+            @include transform(translateX(-50%));
+            @include transition(all 0.3s ease-in); 
+        }
+        .content{
+            padding: 50px 25px 25px 110px;
+            .title{
+                font-weight: 400;
+                color: #242424;
+            }
+            .details {
+                display: block;
+                font-size: 14px;
+                line-height: 28px;
+                color: $descr-color; 
+            }
+        } 
+
+ }
+ .contact-map{
+    margin-top: 30px;
+    #map{
+        min-height: 550px;
+    }
+}
+}
+
+
+.contact-area {
+  .contact-bottom-inner {
+    .form-content-area {
+            padding: 0px 10px 100px 10px;
+            background-color: white;
+            border-radius: 5px;
+            background-color: #fff;
+            .title {
+                font-size: 40px;
+                line-height: 50px;
+                color: #242424;
+                margin-bottom: 40px; 
+            }
+        }
+    }
+    .contact-form-wrapper{
+        .input-field {
+            width: 100%;
+            height: 60px;
+            padding: 0 30px;
+            border-radius: none !important;
+            color: #7c7c90;
+        }
+        .input-field.textarea {
+            min-height: 250px;
+            padding: 20px 30px;
+            resize: none;
+        }
+        .form-element{
+            margin-bottom: 20px;
+        }
+        .submit-btn {
+            width: 250px;
+            height: 60px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 40px;
+            color: $descr-color;
+            text-transform: uppercase;
+            background-color:#e87823;
+            color: #fff;
+            @include transition($transition);
+            cursor: pointer;
+            margin-top: 30px;
+            &:hover{
+                 background-color: $base-color;
+                 color: $white;
+            }
+        }
+    }
+}
+
+  

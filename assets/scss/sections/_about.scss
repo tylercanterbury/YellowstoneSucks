@@ -1,0 +1,74 @@
+/*------------------------------
+    About Area
+------------------------------*/
+.about-area{
+    padding: 100px 0px 70px;
+    .images-column{
+        .inner-column{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            .about-image1 {
+                position: absolute;
+                z-index: 3;
+                top: 200px;
+                left: 80px;
+                @include transition($transition-mid); 
+                &:hover{
+                z-index: 3;
+                @include transform(translate(10%,-10%));
+                }
+            }
+
+            .about-image2 {
+                position: absolute;
+                z-index: 2;
+                top: 60px;
+                left: 160px;
+                @include transition($transition-mid); 
+                &:hover{
+                  z-index: 4;  
+                @include transform(translate(-10%,10%));
+                }
+            }
+
+            .about-image3 {
+                position: absolute;
+                 z-index: 1;
+                 @include transition($transition); 
+                 &:hover{
+                  z-index: 5; 
+                  @include transform(translate(-10%,-10%));
+                }
+                    }
+  
+            }
+    }
+    .content-column{
+        padding: 50px 0px 40px 10px;
+        .inner-column{
+            .subtitle{
+                font-size: 30px;
+                color: $heading-color;
+            }
+            .title{
+                 font-size: 40px;
+                color: $secondary-color;
+            }
+            .text{
+                
+            }
+            .list-style{
+                padding: 20px 0px 30px;
+                li{
+                    padding-bottom: 10px;
+                    i{
+                        color: #21b73d;
+                        padding-right: 15px;
+                    }
+                }
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,127 @@
+/*------------------------------
+    Navbar Area
+------------------------------*/
+.navbar-area {
+    @include transition(.5s ease-in);
+    background-color: $base-color;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+    
+    .navbar-collapse {
+        justify-content: flex-end;
+        .navbar-nav {
+            float: right;
+            .nav-item {
+                display: inline-block;
+                font-size: 14px;
+                line-height: 45px;
+                text-transform: uppercase;
+                font-weight: 700;
+                padding: 15px 7px;
+                position: relative;
+                &.dropdown {
+                    &:hover {
+                        @include transition($transition);
+                        .dropdown-menu {
+                            display: block;
+                            @include transition(.5s ease);
+                        }
+                    }
+                }
+
+                &:hover {
+                    .dropdown-menu {
+                        padding: 0;
+                        border-radius: 0;
+                        .dropdown-item {
+                            font-size: 14px;
+                            font-weight: 600;
+                            color: $base-color;
+                            @include transition($transition);
+                            &:hover {
+                                background-color: $base-color;
+                                color: $white;
+                                  @include transition(.5s ease);
+                            }
+
+                        }
+                    }
+                }
+                .dropdown-menu {
+                    &.show {
+                        padding: 0;
+                        border-radius: 0;
+                        .dropdown-item {
+                            font-size: 14px;
+                            font-weight: 600;
+                            color: $base-color;
+                            @include transition($transition);
+                            &:hover {
+                                background-color: $base-color;
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+                
+                &:after {
+                    position: absolute;
+                    left: 50%;
+                    bottom: 20px;
+                    width: 7px;
+                    height: 7px;
+                    border-radius: 50%;
+                    background-color:  $heading-color;
+                    content: '';
+                    visibility: hidden;
+                    opacity: 0;
+                    -ms-transform: translateX(-50%);
+                    -webkit-transform: translateX(-50%);
+                    transform: translateX(-50%);
+                    -webkit-transition: all 0.5s ease-in;
+                    -moz-transition: all 0.5s ease-in;
+                    -o-transition: all 0.5s ease-in;
+                    transition: all 0.5s ease-in;
+                }
+                
+                &.active {
+                    .nav-link {
+                        color: $heading-color;
+                    }
+                    &:after {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+                &:hover {
+                    .nav-link {
+                        color: $heading-color;
+                    }
+                    &:after {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+                &:last-child {
+                    padding-right: 0;
+                    &:after{
+                        display: none;
+                    }
+                    .nav-link{
+                        padding-right: 0;
+                    }
+                }
+                .nav-link {
+                    color: $white;
+                   
+                }
+            }
+            
+        }
+    }
+    .right-btn-wrapper{
+        padding-left: 50px;
+    }
+   
+}

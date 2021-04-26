@@ -1,0 +1,907 @@
+/* Medium Layout: 1366px. */
+@media only screen and (min-width:1201px) and (max-width:1366px){
+
+
+}
+/* Medium Layout: 1200px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  
+ .navbar-area .navbar-collapse .navbar-nav .nav-item {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 10px;
+    position: relative;
+}
+.navbar-area .right-btn-wrapper {
+	display:none;
+
+}
+ 
+.navbar-area .navbar-collapse .navbar-nav .nav-item:after {
+    bottom: 13px;
+}	
+
+.header-area .slider-all-text .title {
+    font-size: 50px;
+}
+.about-area .images-column .inner-column .about-image1 {
+    left: 40px;
+}
+.testimonials-area .carousel .carousel-array .carousel-control {
+    margin-right: 430px;
+}
+.testimonials-area2 .carousel .carousel-array .carousel-control {
+    margin-right: 430px;
+}
+.promo-area {
+    padding: 86px 0px 180px;
+}
+
+.blog-area .blog-item .blog-text h3 {
+    font-weight: 500;
+	font-size:24px;
+}
+.blog-area .blog-item .blog-text2 {
+    padding: 39px 30px;
+}
+
+.blog-area .blog-item .blog-text2 h4 {
+	font-size:18px;
+}
+
+.footer-area .footer-wrap .footer-widget.about .call-us {
+    font-size: 22px;
+}
+.about_mission-area .about-content h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+.about_mission-area .about-content h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.about_mission-area .about-content p {
+    font-size: 15px;
+}
+.destination-details-area .destination-details-content h3 {
+    font-size: 32px;
+    padding: 5px 0px;
+}
+.destination-details-area .destination-details-content p {
+    font-size: 14px;
+}
+.home-area .slider-all-text .title {
+    font-size: 50px;
+}
+.home-area .slider-all-text .subtitle {
+    font-size: 48px;
+    font-weight: 500;
+}
+.lets-area .lets-image {
+	display:none;
+}
+.blog-details-page-content-area .blog-details-content .entry-footer .left-content ul li {
+    margin: 0 4px;
+}
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+.navbar-area .right-btn-wrapper {
+	display:none;
+
+}
+.navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link {
+     color: #004650; 
+}
+.navbar-area .navbar-collapse .navbar-nav .nav-item:after {
+	display:none;
+}
+
+	.navbar-area .nav-container{
+        position: relative;
+    }
+    .navbar-area .navbar-collapse {
+        position: absolute;
+        top: 68px;
+        background: #fff;
+        z-index: 9;
+        right: 0;
+        width: 250px;
+        padding-left: 20px;
+    } 
+    
+    .navbar-area .navbar-collapse .navbar-nav {
+        float: none;
+    } 
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show {
+        display: block;
+        border: none;
+        height: fit-content;
+    }
+    
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+        height: 0;
+        overflow: hidden;
+        transition: height .3s ease-in;
+        border: none;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 25px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 2px 7px;
+        position: relative;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    
+    .dropdown-item {
+        background: #fff;
+        color: #191717;
+    }
+    .navbar-area {
+        padding: 20px;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item{
+        color: #191717;
+    }
+    
+	
+.header-area {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.testimonials-area .carousel .carousel-array .carousel-control {
+    top: 370px;
+    margin-right: 308px;
+}
+.testimonials-area2 .carousel .carousel-array .carousel-control {
+    top: 370px;
+    margin-right: 308px;
+}
+.promo-area .single-promo-special .promo-special .promo-hover {
+    position: absolute;
+    top: 15%;
+    left: 9%;
+}
+.promo-area .single-promo-special .promo-special .promo-price {
+    right: 5px;
+    top: 15px !important;
+}
+
+.promo-area .single-promo-special .promo-special .promo-hover .promo-inner-top {
+    padding: 0px 20px;
+    margin: -20px;
+    margin-right: -2px;
+}
+.promo-area .single-promo-special .promo-special .promo-hover .promo-inner-top .promo-heading-name h4 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.blog-area .blog-item {
+    margin-bottom: 30px;
+}
+.blog-area .blog-item .blog-text2 {
+    padding: 70px 30px;
+}
+.footer-area .footer-wrap .footer-widget.about .footer-social li {
+    display: inline-block;
+    margin: 0 -1px;
+}
+.home-area {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.lets-area .lets-image {
+    display: none;
+}
+.planning-area .single-price-plan {
+	margin-bottom: 30px;
+	}
+.gallery-area .our-gallery-menu ul li {
+padding: 15px 30px;}
+.contact-page-content-area .single-contact-info-box {
+    margin-bottom: 20px;
+}
+}
+
+/* Tablet Layout wide: 768px. */
+
+@media only screen and (max-width: 767px) {
+
+.navbar-area .right-btn-wrapper {
+	display:none;
+
+}
+.navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link {
+     color: #004650; 
+}
+.navbar-area .navbar-collapse .navbar-nav .nav-item:after {
+	display:none;
+}
+	.navbar-area .nav-container{
+        position: relative;
+    }
+    .navbar-area .navbar-collapse {
+        position: absolute;
+        top: 68px;
+        background: #fff;
+        z-index: 9;
+        right: 0;
+        width: 250px;
+        padding-left: 20px;
+    } 
+    .navbar-area .navbar-collapse .navbar-nav {
+        float: none;
+        
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show {
+        display: block;
+        border: none;
+        height: fit-content;
+    }
+    
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+        height: 0;
+        overflow: hidden;
+        transition: height .3s ease-in;
+        border: none;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 25px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 2px 7px;
+        position: relative;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .donate-btn{
+        padding: 0;
+        width: auto;
+        height: auto;
+        color: #191717;
+        padding-left: 10px;
+        background-color: transparent;
+        margin-top: 0;
+    }
+    .navbar-area.navbar.navbar-light .navbar-toggler {
+        background: #fff;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link.pl-0 {
+        padding-left: 0.4rem !important;
+    }
+    
+    .dropdown-item {
+        background: #fff;
+        color: #191717;
+    }
+    .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show .dropdown-item{
+        color: #191717;
+    }
+    .navbar-area {
+        padding: 20px;
+    }
+	.about-area {
+    padding: 30px 0px 630px;
+	}
+	.header-area {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+   .header-area .slider-all-text .title {
+    font-size: 42px;
+    font-weight: 500;
+}
+.header-area .slider-all-text .subtitle {
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.section-title .title:before {
+    right: 20%;
+}
+.section-title .title:after {
+	    left: 20%;
+}
+.testimonials-area .carousel .carousel-inner .carousel-item .single-review-item {
+	margin-bottom: 20px;
+}
+.testimonials-area2 .carousel .carousel-inner .carousel-item .single-review-item {
+	margin-bottom: 20px;
+}
+.testimonials-area .carousel .carousel-array .right {
+    left: auto;
+    right: -117%;
+}
+.testimonials-area2 .carousel .carousel-array .right {
+    left: auto;
+    right: -117%;
+}
+.testimonials-area .carousel .carousel-array .carousel-control {
+	top: 294px;}
+.testimonials-area2 .carousel .carousel-array .carousel-control {
+	top: 294px;}
+.animals-area .slider-for .animals-image-big .donate-text {
+    top: 18%;
+}
+.testimonials-area {
+    padding: 86px 0px 100px;
+}
+.testimonials-area2 {
+    padding: 86px 0px 100px;
+}
+.single-promo-special{
+	    margin-bottom: 30px;
+}
+.promo-area .single-promo-special .promo-special .promo-hover {
+    position: absolute;
+    top: 71%;
+    left: 4%;
+}
+.blog-area .blog-item {
+    margin-bottom: 30px;
+}
+.blog-area .blog-item .blog-text2 {
+    padding: 45px 30px;
+}
+.home-area {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.home-area .slider-all-text .title {
+    font-size: 42px;
+}
+.home-area .slider-all-text .subtitle {
+    font-size: 44px;
+    margin-bottom: 15px;
+}
+.lets-area .lets-image {
+	display:none;
+}
+.widget-title{
+	margin-top: 30px;
+}
+.planning-area .single-price-plan {
+	margin-bottom: 30px;
+}
+.gallery-area .our-gallery-menu ul li {
+    padding: 15px 20px;
+    font-size: 14px;
+}
+.icon-text{
+	margin-bottom: 20px;
+}
+.blog-details-page-content-area .blog-details-content .entry-footer .right-content {
+    margin-top: 20px;
+}
+.sidebar{
+	margin-top: 30px;
+}
+.single-contact-info-box{
+	margin-bottom: 30px;
+}
+.contact-page-content-area .single-contact-info-box .icon {
+    left: 12%;
+	top: 33px;
+	}
+}
+
+/* medium tablet layout 599px */
+
+@media only screen and (max-width: 599px) {
+.navbar-area .right-btn-wrapper {
+	display:none;
+
+}
+.navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link {
+     color: #004650; 
+}
+.navbar-area .navbar-collapse .navbar-nav .nav-item:after {
+	display:none;
+}
+ .section-title h2 {
+
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+
+}
+.blog-details-page-content-area .blog-details-content .entry-comment {
+    margin-top: 70px;
+}	
+}
+/* mobile tablet layout 414px */
+
+@media only screen and (max-width: 414px) {
+.navbar-area .right-btn-wrapper {
+	display:none;
+
+}
+.navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link {
+     color: #004650; 
+}
+.navbar-area .navbar-collapse .navbar-nav .nav-item:after {
+	display:none;
+}
+	
+	.header-area .slider-all-text .subtitle {
+		line-height: 20px;
+		font-size: 24px;
+		font-weight: 400;
+		display: block;
+		margin-bottom: 20px;
+		text-transform: capitalize;
+
+	}
+	.header-area .slider-all-text .title {
+		font-size: 32px;
+		font-weight: 400;
+		line-height: 36px;
+		color: #fff;
+		margin-bottom: 10px;
+		text-transform: capitalize;
+	}
+	.header-area .slider-all-text p {
+		color: #fff;
+		font-size: 16px;
+		line-height: 22px;
+		font-weight: 400;
+		padding-top: 10px;
+	}
+	.header-area .slider-all-text .btn-wrapper .boxed-btn {
+		border-radius: 35px;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.header-area {
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+	.home-area {
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+.breadcumb-area .breadcumb-inner .title {
+    font-size: 44px;
+	font-weight: 400;
+}
+.section-title {
+    margin-bottom: 15px;
+}
+.about-area {
+    padding: 30px 0px 420px !important;
+}
+.single-promo-special {
+    margin-bottom: 50px;
+}
+.blog-area .blog-item .blog-2 {
+    display: block;
+    float: none;
+	margin-right:0px;
+}
+.join-area .join-donate .donate {
+    float: left;
+}
+
+.blog-area .single-blog-item .content .title {
+    font-size: 18px;
+	font-weight:400;
+}
+.blog-area .widget.widget-popular-post .single-post .part-text h4 a {
+    font-weight: 300;
+}
+.home-area .slider-all-text .title {
+    font-size: 32px;
+	font-weight:500;
+}
+.home-area .slider-all-text p {
+    font-size: 16px;
+}
+.home-area .slider-all-text .subtitle {
+    font-size: 32px;
+    margin-bottom: 7px;
+	font-weight:400;
+}
+.home-area .slider-all-text .btn-wrapper .boxed-btn {
+    border-radius: 35px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.about-video-area .video-column .inner-column .about-image2 {
+    display: none;
+}
+.about-video-area .content-column .inner-column .title {
+    font-size: 36px;
+    font-weight:500;
+}
+.testimonials-area2 .carousel .carousel-array .carousel-control {
+    display: none;
+}
+.join h3{
+	font-weight:400;
+}
+.about_mission-area .about-content h2 {
+    font-size: 36px;
+	font-weight:500;
+}
+.about_mission-area .about-content h3 {
+    font-weight: 400;
+}
+.about-area .content-column .inner-column .title {
+    font-size: 32px;
+	font-weight:500;
+}
+.section-title .title {
+    font-weight: 400;
+    line-height: 38px;
+}
+.section-title .title:before {
+    border-bottom: none;
+    border-top: none;
+	dispaly:none !important;
+}
+.section-title .title:after {
+	border-bottom: none;
+    border-top: none;
+	dispaly:none !important;
+}
+
+.about_mission-area .mission-tab .nav .nav-item {
+    margin-bottom: 20px;
+}
+
+.testimonials-area .carousel .carousel-inner .carousel-item .single-review-item .review-head .author-details h6 {
+    font-weight: 400;
+}
+.testimonials-area .carousel .carousel-inner .carousel-item .single-review-item .review-head .author-details .post {
+    font-weight: 300;
+}
+.testimonials-area2 .carousel .carousel-inner .carousel-item .single-review-item .review-head .author-details h6 {
+    font-weight: 400;
+}
+.testimonials-area2 .carousel .carousel-inner .carousel-item .single-review-item .review-head .author-details .post {
+    font-weight: 300;
+}
+.testimonials-area .carousel .carousel-array .carousel-control {
+    width: 30px;
+    height: 30px;
+    background: #a7a7a7;
+    text-shadow: none;
+    top: 340px;
+    border-radius: 50px;
+    margin-right: 520px;
+    display: none;
+}
+.testimonials-area2 .carousel .carousel-array .carousel-control {
+    width: 30px;
+    height: 30px;
+    background: #a7a7a7;
+    text-shadow: none;
+    top: 340px;
+    border-radius: 50px;
+    margin-right: 520px;
+    display: none;
+}
+.about-area .content-column .inner-column .title {
+    font-size: 32px;
+}
+.join-area .join-donate {
+    display: block;
+}
+.join h3 {
+    font-weight: 400;
+	font-size: 26px;
+}
+.animals-area .slider-for .animals-image-big .donate-text p {
+    dispaly:none;
+}
+.promo-area .single-promo-special .promo-special .promo-hover .promo-inner-top .promo-heading-name h4 {
+   font-weight:300;
+}
+.blog-area .blog-item .blog-text2 h4 {
+    font-weight: 400;
+}
+.about-area .images-column .inner-column .about-image1 {
+    position: initial;
+    margin-bottom: 20px;
+}
+.about-area .images-column .inner-column .about-image2 {
+    position: initial;
+    margin-bottom: 20px;
+}
+}
+
+/* mobile tablet layout 375px */
+
+@media only screen and (max-width: 384px) {
+  .navbar-area .right-btn-wrapper {
+	display:none;
+
+}
+.navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link {
+     color: #004650; 
+}
+.navbar-area .navbar-collapse .navbar-nav .nav-item:after {
+	display:none;
+}
+	.header-area .slider-all-text .subtitle {
+		line-height: 20px;
+		font-size: 24px;
+		font-weight: 400;
+		display: block;
+		margin-bottom: 20px;
+
+	}
+	.header-area .slider-all-text .title {
+		font-size: 28px;
+		font-weight: 400;
+		line-height: 30px;
+		margin-bottom: 10px;
+	}
+	.header-area .slider-all-text p {
+		color: #fff;
+		font-size: 16px;
+		line-height: 22px;
+		font-weight: 400;
+	}
+	.header-area .slider-all-text .btn-wrapper .boxed-btn {
+    border-radius: 35px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.section-title {
+    margin-bottom: 15px;
+}
+.home-area .slider-all-text .title {
+    font-size: 28px;
+}
+.home-area .slider-all-text .subtitle {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.home-area .slider-all-text p {
+    font-size: 15px;
+}
+.join-area .join-donate {
+    display: block;
+}
+.about-area {
+    padding: 30px 0px 420px !important;
+}
+.about-area .content-column .inner-column .title {
+    font-size: 28px;
+}
+.about-video-area .content-column .inner-column .subtitle {
+    font-size: 28px;
+}
+.visit-area .icon-text .titel {
+    font-weight: 500;
+}
+.destination-details-area .mail-contact p {
+    font-size: 26px;
+}
+.destination-details-area .mail-contact {
+    padding: 30px 80px;
+    margin-top: 50px;
+}
+.blog-details-page-content-area .blog-details-content .entry-footer .left-content ul li a {
+    display: block;
+    padding: 5px 8px;
+}
+}
+
+/* mobile tablet layout 360px */
+
+@media only screen and (max-width: 360px) {
+	.navbar-area .right-btn-wrapper {
+	display:none;
+
+}
+.navbar-area .navbar-collapse .navbar-nav .nav-item .nav-link {
+     color: #004650; 
+}
+.navbar-area .navbar-collapse .navbar-nav .nav-item:after {
+	display:none;
+}
+	.navbar-area .navbar-collapse .navbar-nav {
+		float: right;
+		position: absolute;
+		top: -3px;
+		background: #fff;
+		z-index: 9;
+		right: 3%;
+		width: 250px;
+		padding-left: 20px;
+	}
+	.header-area .slider-all-text .subtitle {
+		line-height: 20px;
+		font-size: 20px;
+		font-weight: 400;
+		display: block;
+		margin-bottom: 15px;
+		text-transform: capitalize;
+
+	}
+	.header-area .slider-all-text .title {
+		font-size: 26px;
+		font-weight: 400;
+		line-height: 30px;
+		margin-bottom: 10px;
+		text-transform: capitalize;
+	}
+	.header-area .slider-all-text p {
+		color: #fff;
+		font-size: 14px;
+		line-height: 22px;
+		font-weight: 400;
+	}
+	.header-area .slider-all-text .btn-wrapper .boxed-btn {
+    border-radius: 35px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.section-title {
+    margin-bottom: 15px;
+}
+.home-area .slider-all-text p {
+    font-size: 14px;
+}
+.join-area .join-donate {
+    display: block;
+}
+.about-video-area .content-column .inner-column .title {
+    font-size: 36px;
+}
+.blog-area .blog-item .blog-text h3 {
+    font-weight: 500;
+	font-size: 28px;
+}
+.blog-area .blog-item .blog-2 {
+    display: block;
+    float: none;
+}
+.section-title .title {
+    font-size: 28px;
+}
+.breadcumb-area .breadcumb-inner .title {
+    font-size: 46px;
+    margin-bottom: 10px;
+	font-weight:400;
+}
+.destination-details-area .mail-contact {
+    padding: 30px 70px;
+    margin-top: 50px;
+}
+}
+
+/* mobile tablet layout 320px */
+
+@media only screen and (max-width: 320px) {
+	.navbar-area .right-btn-wrapper {
+	display:none;
+
+}
+	.navbar-header{
+		width: 60%;
+	}
+	.navbar-area .navbar-collapse .navbar-nav {
+    float: right;
+    position: absolute;
+    top: 0px;
+    background: #fff;
+    z-index: 9;
+    right: -3%;
+    width: 250px;
+    padding-left: 20px;
+}
+	
+    .navbar-area {
+        padding: 20px;
+    }
+	.header-area .slider-all-text .subtitle {
+		line-height: 20px;
+		font-size: 20px;
+		font-weight: 400;
+		display: block;
+		margin-bottom: 15px;
+		text-transform: capitalize;
+
+	}
+	.header-area .slider-all-text .title {
+		font-size: 28px;
+		font-weight: 400;
+		line-height: 40px;
+		margin-bottom: 5px;
+		text-transform: capitalize;
+	}
+	.header-area .slider-all-text p {
+		color: #fff;
+		font-size: 15px;
+		line-height: 22px;
+		font-weight: 400;
+	}
+	.header-area .slider-all-text .btn-wrapper .boxed-btn {
+    border-radius: 35px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.home-area .slider-all-text .title {
+    font-size: 24px;
+	font-weight: 400;
+}
+.about-video-area .content-column .inner-column .subtitle {
+    font-size: 24px;
+}
+.about-video-area .content-column .inner-column .title {
+    font-size: 32px;
+}
+.section-title {
+    margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+
+.join h3 {
+    font-weight: 400;
+    font-size: 22px;
+}
+.join-area .join-donate .join p {
+    font-size: 20px;
+}
+.gallery-area .filterizr__elements .filtr-item .inner-box .img-overlay {
+    background-color: rgba(240, 122, 13, 0.8);
+    width: 90%;
+    height: 80%;
+    bottom: 0;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    opacity: 0;
+}
+.join-area .join-donate {
+    display: block;
+}
+.about-area {
+    padding: 30px 0px 330px !important;
+}
+.destination-details-area .mail-contact p {
+    font-size: 26px;
+}
+.destination-details-area .mail-contact {
+    padding: 30px 80px;
+    margin-top: 50px;
+}
+.about-area .content-column .inner-column .title {
+    font-size: 24px;
+}
+.single-promo-special {
+    margin-bottom: 120px;
+}
+.blog-area .blog-item .blog-text h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+.blog-details-page-content-area .blog-details-content .entry-footer .left-content ul li a {
+    display: block;
+    padding: 5px 2px;
+}
+}

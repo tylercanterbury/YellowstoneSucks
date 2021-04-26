@@ -1,0 +1,33 @@
+/*------------------------------
+    Visit  Area
+------------------------------*/
+.visit-area{
+    padding: 86px 0px 96px;
+    background-color: #fdfaf7;
+    .icon-text{
+        text-align: center;
+        &:hover{
+            .titel{
+                a{
+                    color: $heading-color;
+                    font-size: 24px;
+                    font-weight: 500;  
+                }
+            }
+            
+        }
+        .icon{
+            background-image: url(../img/visit/icon-boder.png);
+            background-repeat: no-repeat;
+            background-position: center; 
+            padding: 25px 0px;
+        }
+        .titel{
+            padding: 7px 0px;
+            a{
+            font-size: 24px;
+            color: $secondary-color; 
+            }
+        }
+    }
+}

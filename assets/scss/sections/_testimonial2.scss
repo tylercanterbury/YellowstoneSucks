@@ -1,0 +1,82 @@
+/*------------------------------
+    Testimonials2 Area
+------------------------------*/
+.testimonials-area2{
+    padding: 86px 0px 170px;
+    background-color: #fdfaf7;
+    .carousel{
+        .carousel-inner{
+            .carousel-item{
+                .single-review-item {
+                    padding: 40px 30px;
+                    background-color: #fff;
+                    border-radius: 6px;
+                    position: relative;
+                    border: 1px solid #ffb923;
+                    &:hover{
+                        border: 1px solid #10af1f;
+                    }
+                    .review-head{
+                        display: flex;
+                        .author-details {
+                            padding-left: 25px;
+                            margin-top: 15px; 
+                        h6 {
+                            font-size: 18px;
+                            font-weight: 400;
+                            text-transform: capitalize;
+                            color: #242424;
+                            margin-top: 0; }
+                        .post {
+                        font-size: 14px;
+                        color: #242424;
+                        font-weight: 400; }
+                        }
+                        .thumb {
+                            left: 30px;
+                            img {
+                                border-radius: 5px; 
+                            }   
+                        } 
+                    }
+                    
+                    .desciption {
+                            padding-top: 30px;
+                            font-size: 16px;
+                            font-style: italic;
+                            color: #242424; 
+                            .rating{
+                                li {
+                                display: inline-block;
+                                font-size: 14px;
+                                color: #ffb923;
+                                }
+                            } 
+                        }
+                }
+            }
+        }
+        .carousel-array{
+                .carousel-control {
+                    width: 30px;
+                    height: 30px;
+                    background: #a7a7a7;
+                    text-shadow: none;
+                    top: 340px;
+                    border-radius: 50px;
+                    margin-right: 520px;
+                    i{
+                    font-size: 18px;
+                    }
+                }
+                .left {
+                    left: auto;
+                    right: 40px;
+                }
+                .right {
+                    left: auto;
+                }
+
+            }
+    }
+}

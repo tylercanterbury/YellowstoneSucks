@@ -1,0 +1,60 @@
+/*==========================================
+    Breadcrumb Area
+==========================================*/
+.breadcumb-area {
+  position: relative;
+  z-index: 0;
+  padding: 132px 0 137px 0;
+   &:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(19, 18, 34, 0.6);
+    content: '';
+    z-index: -1; }
+    &.breadcrumb-bg {
+    background-image: url(../img/bg/breadcumb-bg.jpg);
+    background-position: center;
+    background-size: cover; } 
+    .breadcumb-inner{
+        .title {
+            font-size: 50px;
+            line-height: 60px;
+            color: #fff;
+            margin-bottom: 10px; }
+        .page-list{
+            li {
+            display: inline-block;
+            margin: 0 12px;
+            color: #e8e8e8;
+            font-size: 18px;
+            line-height: 28px;
+            margin-bottom: 0;
+            position: relative;
+            a {
+                color: #fff;
+                @include transition(.3s ease);
+                &:hover{
+                    color: $heading-color;
+                    }
+                
+            }
+         }
+        }
+    }
+
+}
+    .breadcumb-area .breadcumb-inner .page-list li:first-child {
+      margin-left: 0; }
+    .breadcumb-area .breadcumb-inner .page-list li:after {
+      position: absolute;
+      right: -20px;
+      top: 2px;
+      color: #fff;
+      content: "/";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900; }
+    .breadcumb-area .breadcumb-inner .page-list li:last-child:after {
+      display: none; }

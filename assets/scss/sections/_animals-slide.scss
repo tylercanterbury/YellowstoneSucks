@@ -1,0 +1,30 @@
+
+/*--------------------
+    Animals Slide area
+--------------------*/
+.animals-slide-area{
+    padding: 86px 0px 100px;
+    .animals-carousel{
+    .single-carousel-item{
+        &:hover{
+            img{
+                opacity: .5;
+            }
+            h5{
+                color: #e87823;
+            }
+        }
+        img{
+            padding: 0 20px;
+           @include transition($transition);
+            cursor: pointer;
+        }
+        h5{
+            text-align: center;
+            font-size: 18px;
+            color: #242424;
+            padding-top: 15px;
+        }
+    }
+}
+}

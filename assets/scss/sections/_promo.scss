@@ -1,0 +1,80 @@
+/*------------------------------
+    Promo  Area
+------------------------------*/
+.promo-area{
+    padding: 86px 0px 100px;
+    background-color: #fdfaf7;
+    .section-title .title:before {
+        right: 12% !important;
+    }
+    .section-title .title:after {
+        left: 12% !important;
+    }
+    .single-promo-special{
+        
+        .promo-special{
+            position: relative;
+            img{
+                width: 100%;
+                height: auto;
+            }
+            .promo-price{
+                position: absolute;
+                right: 15px;
+                top: 15px;
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                text-align: center;
+                background-color: #e87823;
+                color: #fff;
+                padding: 8px;
+                font-size: 14px;
+                font-weight: 700;
+                z-index: 10;
+                line-height: 18px;
+                @include transition(.3s ease);
+                span{
+                    font-weight: 400;
+                }
+            }
+            .promo-hover{
+                position: absolute;
+                top: 60%;
+                left: 5%;
+                .promo-details-wrapper{
+                    display: table;
+                    width: 100%;
+                    height: 100%;
+                }
+                .promo-inner-top{
+                    padding: 10px 20px;
+                    margin: -20px;
+                    margin-right: -2px;
+                    background: linear-gradient(to bottom, transparent 0%, #262523 60%);
+                    @include transition($transition);
+                    &:hover{
+                        background: linear-gradient(to bottom, transparent 0%, #bf6b29 60%);  
+                        @include transition($transition-long); 
+                    }
+                    .promo-heading-name {
+                        h4{
+                            color: #fff;
+                            font-size: 24px;
+                            font-weight: 400;
+                        }
+                    }
+                    p{
+                       color: #fff; 
+                       font-size: 14px;
+                    }
+                }
+                
+                    
+            }
+        }
+        
+
+    }
+
+}

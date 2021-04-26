@@ -1,0 +1,105 @@
+/*------------------------------
+    Gallery Page
+------------------------------*/
+.gallery-area{
+    padding: 100px 0px 70px;
+    .our-gallery-menu{
+        margin-bottom: 30px;
+        text-align: center;
+        ul {
+            position: relative;
+            display: inline-block;
+            border: 2px solid rgba(#000,.1);
+            border-radius: 35px;
+            li{
+                position: relative;
+                display: inline-block;
+                color: $descr-color;
+                padding: 15px 35px;
+                cursor: pointer;
+                font-size: 18px;
+                font-weight: 500;
+                @include transition(all 300ms ease);
+                border-radius: 35px;
+                &.active,&:hover{
+                    background-color: $base-color;
+                    color: $white;
+                }
+            }
+        }
+    }
+   
+    .filterizr__elements{
+            .filtr-item{
+                
+               .inner-box{
+        position: relative;
+        margin-bottom: 30px;
+        &:hover{                  
+            .img-overlay{
+                opacity: 1;
+                @include transition($transition);
+               
+            }
+        }
+        
+        .image{
+            img {
+                position: relative;
+                width: 100%;
+                display: block;
+                background-color: $title-color;
+                @include transition($transition);
+                
+            }
+        }
+        .img-overlay{
+            background-color: rgba($heading-color, 0.8);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            .view-button {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                @include transition($transition);
+                @include transform(translate(-50%,-50%));
+                p{
+                    font-size: 24px;
+                    color: #fff;
+                    font-weight: 500;
+                }
+                a {
+                    margin: 0 8px;
+                    width: 50px;
+                    height: 50px;
+                    border: 2px solid #fff;
+                    line-height: 46px;
+                    border-radius: 50%;
+                    font-size: 16px;
+                    color: #fff;
+                    display: inline-block;
+                    @include transition($transition);
+                    &:hover{
+                        background-color: $white;
+                        color: $base-color;
+                    }
+                &:first-child{
+                    margin-left: 0;
+                }
+            }
+            }
+            
+            
+        }
+    }
+
+            }
+    }  
+
+    
+
+}

@@ -1,0 +1,94 @@
+/*------------------------------
+    About Us Page
+------------------------------*/
+.about_mission-area{
+    padding: 100px 0px 80px;
+    .about-mission{
+        position: relative;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: auto; 
+                @include transition(.3s ease);  
+                &:hover{
+                    -webkit-transform: scale(1.2);
+                    -ms-transform: scale(1.2);
+                        transform: scale(1.2); 
+                 @include transition($transition-long);
+                }            
+            } 
+    }
+    .about-content{
+        h2{
+            font-size: 40px;
+        }
+        h3{
+            font-size: 24px;
+            color: $secondary-color;
+            font-weight: 500;
+        }
+    }
+    .mission-tab{
+        padding-top: 50px;
+        .nav{
+            padding-top:6px;
+            .nav-item{
+                    position: relative;
+                    width: 150px;
+                    height: 45px;
+                    text-align: center;
+                     
+                    &:hover{
+                        .nav-link{
+                            background-color: #004650!important;
+                            text-decoration:none;
+                        }
+                                                    
+                    }
+                    
+                    .nav-link{
+                        font-weight:700;
+                        color:#fff!important;
+                        border-radius:0px; 
+                        line-height: 40px; 
+                        background-color: #e87823;
+                        &.active{
+                         background-color:#10af1f !important;                                    
+                        }
+                     }
+                     
+                    
+                 }
+        }
+        .tab-content{
+                padding-top: 30px;
+                .tab-pane{
+                    .content-details{
+                    p{
+                         font-size: 16px;
+                        color: $secondary-color;
+                    }
+                    .heading{
+                        font-size: 18px;
+                        color: $secondary-color;
+                        font-weight: 500;
+                        i{
+                            padding-right: 7px;
+                            color: #e87823;
+                        }
+                    }
+                }
+                    }
+                    
+            }
+    }
+    
+  
+   
+}
+.about-page{
+    border-bottom: 1px solid rgba(134, 129, 129, 0.2);
+}
+.about-animal{
+    padding: 86px 0px 90px;
+}
