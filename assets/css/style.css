@@ -596,7 +596,8 @@ ul {
     -ms-flex-pack: end;
     justify-content: flex-end; }
     .navbar-area .navbar-collapse .navbar-nav {
-      float: right; }
+      float: right;
+      width:max-content; }
       .navbar-area .navbar-collapse .navbar-nav .nav-item {
         display: inline-block;
         font-size: 14px;
